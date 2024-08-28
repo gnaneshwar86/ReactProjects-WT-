@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './App.css';
  const App=()=>{
   let myObject={name:"Madras"}
@@ -14,6 +14,7 @@ import './App.css';
   }
   return (
     <div>
+      <h1>Reference Data Types use same memory</h1>
       <button onClick={display}>Check</button>
     </div>
   )
