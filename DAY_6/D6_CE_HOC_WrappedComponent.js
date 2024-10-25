@@ -11,7 +11,7 @@ const HOC = (WrappedComponent) => {
     };
     return Comp;
 }
-
+//Day 6
 const App = ({products}) => {
     return(
         <div>
